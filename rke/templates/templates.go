@@ -51,8 +51,8 @@ const (
 func LoadK8sVersionedTemplates() map[string]map[string]string {
 	return map[string]map[string]string{
 		Calico: {
-			">=1.16.4": 						  calicov117,
-			">=1.16.0-alpha <1.16.4":             calicov116,
+			">=1.16.4-rancher0": 				  calicov117,
+			">=1.16.0-alpha <1.16.4-rancher0":    calicov116,
 			">=1.15.0-rancher0 <1.16.0-alpha":    calicov115,
 			">=1.13.0-rancher0 <1.15.0-rancher0": calicov113,
 			">=1.8.0-rancher0 <1.13.0-rancher0":  calicov18,
