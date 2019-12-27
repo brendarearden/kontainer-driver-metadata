@@ -2797,6 +2797,7 @@ rules:
       - networksets
       - clusterinformations
       - hostendpoints
+      - blockaffinities
     verbs:
       - get
       - list
